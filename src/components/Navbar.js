@@ -28,7 +28,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar bg-dark sticky-top navbar-expand-lg navbar_background">
+    <nav className="navbar bg-primary sticky-top navbar-expand-lg navbar_background">
       <section className="container-fluid content_margin">
         <Link className="navbar-brand" to="/">
           <img width="60" height="48" src={Joseph} alt="My profile thumbnail" />
