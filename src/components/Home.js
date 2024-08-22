@@ -1,12 +1,14 @@
+import ScrollToTop from "react-scroll-to-top";
+
 import "../App.css";
+import Navbar from "./Navbar";
 
 function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        WELCOME TO MY PROTFOLIO
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <ScrollToTop smooth />
+    </>
   );
 }
 
